@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\Portfolio-Website.csproj": {}
+    "c:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\Portfolio-Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\Portfolio-Website.csproj": {
+    "c:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\Portfolio-Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\Portfolio-Website.csproj",
+        "projectUniqueName": "c:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\Portfolio-Website.csproj",
         "projectName": "Portfolio-Website",
-        "projectPath": "C:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\Portfolio-Website.csproj",
+        "projectPath": "c:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\Portfolio-Website.csproj",
         "packagesPath": "C:\\Users\\Eray\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\obj\\",
+        "outputPath": "c:\\Users\\Eray\\Desktop\\C#Camp\\Portfolio-Website-Project\\Portfolio-Website\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
