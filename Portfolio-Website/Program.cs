@@ -26,12 +26,28 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapControllerRoute(
+    name: "experience",
+    pattern: "experiences/{action=ExperienceList}/{id?}",
+    defaults: new { controller = "Experience" });
+
+app.MapControllerRoute(
+    name: "todolist",
+    pattern: "todolist/{action=Index}/{id?}",
+    defaults: new { controller = "ToDoList" });
+
+// Genel fallback route
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=ToDoList}/{action=Index}/{id?}");
+
+
 // app.MapControllerRoute(
 //     name: "default",
 //     pattern: "{controller=Default}/{action=Index}/{id?}");
 
-app.MapControllerRoute(
-    name: "experience",
-    pattern: "{controller=Experience}/{action=ExperienceList}/{id?}");
+// app.MapControllerRoute(
+//     name: "experience",
+//     pattern: "{controller=Experience}/{action=ExperienceList}/{id?}");
 
 app.Run();
